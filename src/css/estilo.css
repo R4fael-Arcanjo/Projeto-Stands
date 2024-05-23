@@ -1,0 +1,159 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: "Nunito", 'Open Sans', Arial, sans-serif; 
+}
+
+a{
+    color: white;
+}
+
+body a:hover{
+    color: #ACAAAA;
+}
+
+/*Header*/
+.logo{
+    font-size: 25;
+    padding: 5px 9px;
+    font-size: 25px;
+}
+
+.menus{
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+}
+
+.menus ul{
+    font-size: 25px;
+    padding: 10px 5px;
+    background-color: #8C019C;
+    list-style: none;
+    text-align: right;
+}
+
+.menus ul li{
+    padding: 3px 10px;
+    display: inline;
+}
+
+.menus ul li:first-child a{
+    float: left;
+}
+.menus ul li:first-child a:hover{
+    color: white;
+}
+
+.small-list{
+    font-size: 21px;
+}
+
+/* DROPDOWN */
+.menus ul .dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.menus ul .dropdown .dropdown-content{
+    text-align: center;
+    display: none;
+    position: absolute;/*Fica perto do elemento pai*/
+    background-color: #8C019C;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.menus lu .dropdown .dropdown-content a{
+    color:black;
+    display: block;
+}
+
+.menus ul .dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/*Buttons back and next */
+.nav2{
+    background-color: #C03ECF;
+    width: 100%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav2 .btn{
+    margin: 0px 5px;
+    border: solid 1px white;
+    background-color: #C03ECF;
+    width: 80px;
+    height: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.nav2 .btn:hover{
+    transform: scale(1.1);
+}
+
+.nav2 .btn a:hover{
+    cursor: pointer;
+    border-color: #ACAAAA;
+    color: #ACAAAA;
+}
+
+/* SECTION */
+.div-central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fotos{
+    background-color: #282727;
+    padding: 10px 10px;
+    width: 1000px;
+    height: auto;    
+}
+                       
+.container-fotos .standbox{
+    background-color: #575050;
+    width: 305px;
+    height: 410px;
+    display: inline-block;
+    margin: 5px 9px;
+}
+
+.container-fotos h2{
+    margin: 10px 0px; 
+    text-align: center;
+}
+
+.container-fotos .standbox h3{
+    text-align: center;
+}
+
+.container-fotos .standbox img{
+    width: 300px;
+    height: 380px;
+    padding: 0px;
+}
+
+.container-fotos .standbox:hover{
+    transition: 0.3s;
+    opacity: 50%;
+}
+
+/* FOOTER */
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: #8C019C;
+    clear: both;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 5px 10px 20px;
+}

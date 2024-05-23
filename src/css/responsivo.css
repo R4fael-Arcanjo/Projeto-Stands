@@ -1,0 +1,24 @@
+/* Celulares medios */
+@media(max-width: 390px) {
+	.menus ul li{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.menus ul .logo{
+		font-size: 24px;
+	}
+
+	.menus ul .small-list{
+		margin-right: 7px ;
+		padding: 0px 0px;
+		font-size: 12px;
+	}
+
+
+	.container-fotos{
+		width: 340px;
+	}
+}
+
+
